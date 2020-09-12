@@ -12,4 +12,4 @@ for filename in os.listdir(in_file):
 	clean_name = os.path.splitext(filename)[0]#it splits the name,[0] take the 1st 
 	img.save(f'{out_file}{clean_name}.png', 'png')
 	print('all done babe')
-
+...
